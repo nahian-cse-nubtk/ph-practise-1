@@ -1,0 +1,36 @@
+main{
+
+
+}
+h1{
+    text-align: left;
+    margin-left: 450px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: bisque;
+    width: 400px;
+    margin: auto;
+    font-size: large;
+    font-weight: 600;
+
+}
+input[type=button]{
+    color:black;
+    font-weight: bold;
+    width: 100px;
+    margin: auto;
+    background-color: beige;
+
+}
+input[type=button]:hover{
+    background-color: rgb(190, 164, 124);
+}
+input,select{
+    height: 30px;
+}
