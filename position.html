@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+
+    <style>
+        .box{
+            border: 2px dotted plum;
+            width: 200px;
+            margin: 10px;
+        }
+
+        .boy{
+            position: static;
+            left: 300px
+            /* left: 300px will not work because position is static. not changeable using attribute*/
+        }
+
+        .ring{
+            position: relative;
+            left: 50px;
+            top: -50px;
+
+            /* aikhane element ter nijer jaiga chare na, kintu attribute er jonno adik sadik sore jay*/
+        }
+
+        .water1{
+            position: absolute;
+            left: 200px;
+            top: 50px;
+            /* aita direct ter nijer jiga jomi chira dia attribute er direction onujay cole but aikhane left right er map root thake hoy mane page start thake*/
+        }
+    </style>
+</head>
+<body>
+    <h1>There are five kinds of positions:</h1>
+
+    <ol>
+        <li>static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>fixed</li>
+        <li>sticky</li>
+    </ol>
+    <div class="swin-container">
+    <div class="box boy"><img src="swim/boy.svg" alt=""></div>
+    <div class="box ring"><img src="swim/ring.svg" alt=""></div>
+    <div class="box water1"><img src="swim/water.svg" alt=""></div>
+    <div class="box water"><img src="swim/water.svg" alt=""></div>
+
+    </div>
+
+</body>
+</html>
