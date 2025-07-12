@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content: ".pdf";
+            color: blue;font: optional;
+            font-size: 20px;
+            background-color: azure;
+
+
+        }
+
+        h3::before{
+            content: "start ";
+            color: brown;
+            background-color: aliceblue;
+        }
+        p::first-letter{
+            font-size: 20px;
+            color: blue;
+
+        }
+        p::first-line{
+            color: rgb(230, 150, 47);
+            background-color: beige;
+        }
+        ::selection{
+            background-color: yellow;
+        }
+
+        input::placeholder{
+            color: rgb(153, 111, 221);
+        }
+    </style>
+</head>
+<body>
+    <h3>heading-1</h3>
+    <h3>heading-2</h3>
+    <h3>heading-3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis iusto officiis dicta commodi aut aliquid pariatur, aspernatur magnam distinctio voluptate accusamus esse quidem? Eligendi facilis nesciunt sunt autem dolorum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolores illum voluptates hic quibusdam quod, illo cupiditate non natus omnis asperiores molestiae a vero, consectetur unde debitis? Dignissimos, maxime in.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, natus iste? Enim, ratione. Magni nemo eveniet, quidem molestias in sed velit alias? Nemo mollitia esse nulla, quidem cum sint tempore.</p>
+
+    <input type="text" name="" id="" placeholder="your name">
+</body>
+</html>
