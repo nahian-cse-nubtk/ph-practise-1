@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+
+    <style>
+        .container{
+            margin: 50px;
+            border: 2px dotted red;
+            padding: 100px;
+            width: 200px;
+            height: 150px;
+        }
+        .box{
+
+            width: 200px;
+            position: relative;
+
+        }
+
+        .boy{
+            z-index: 4;
+        }
+
+        .ring{
+            top: -70px;
+            z-index: 3;
+        }
+
+        .water{
+            top: -150px;
+            width: 1000px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Z-index implement</h1>
+
+    <div class="container">
+        <div class="box boy"><img src="swim/boy.svg" alt=""></div>
+        <div class="box ring"><img src="swim/ring.svg" alt=""></div>
+        <div class="box water"><img src="swim/water.svg" alt=""></div>
+    </div>
+
+</body>
+</html>
